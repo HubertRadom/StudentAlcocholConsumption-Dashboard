@@ -224,11 +224,11 @@ shinyUI(fluidPage(theme = shinytheme("cerulean"),
                                                        choices = list("Math"=1,"Portuguese"=2)),
                                           
                                           radioButtons(inputId = "sexP",
-                                                       label = "Sex",
+                                                       label = "Sex:",
                                                        choices = list("Doesn't matter"="W", "Female"="F","Male"="M")),
                                           
                                           radioButtons(inputId = "activities",
-                                                       label = "extra-curricular",
+                                                       label = "Extracurricular activities:",
                                                        choices = list("Doesn't matter" = 1, "Yes"=2,"No"=3)),
                                           
                                           radioButtons(inputId = "rel_romanticP",
@@ -237,7 +237,7 @@ shinyUI(fluidPage(theme = shinytheme("cerulean"),
                                           
                                           
                                           radioButtons(inputId = "internetP",
-                                                       label = "Internet access",
+                                                       label = "Internet access:",
                                                        choices = list("Doesn't matter"= 1, "Yes"= 2,"No"= 3))
                                           
                                           
