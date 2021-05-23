@@ -215,7 +215,7 @@ shinyServer(function(input, output) {
     
     
     prop <- c(sum(data_temp[,"lucky"] == "Pass" ), sum(data_temp[,"lucky"] == "Fail"))
-    p1 <- pie(prop, labels = c("Pass", "Fail"), col = myPalette, main = "Extra-curricular activities")
+    p1 <- pie(prop, labels = c("Pass", "Fail"), col = myPalette, main = "Extracurricular activities")
     
     ###
     
